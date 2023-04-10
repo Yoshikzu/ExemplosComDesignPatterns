@@ -1,0 +1,11 @@
+package br.com.alura.loja.orcamento;
+
+import java.math.BigDecimal;
+
+public class EmAnalise {
+	
+	public BigDecimal calcularValorDescontoExtra(Orcamento orcamento) {
+		return orcamento.
+	}
+
+}
