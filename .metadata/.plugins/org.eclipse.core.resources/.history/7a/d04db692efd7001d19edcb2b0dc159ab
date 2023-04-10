@@ -1,0 +1,17 @@
+package br.com.alura.loja.desconto;
+
+import java.math.BigDecimal;
+
+import br.com.alura.loja.orcamento.Orcamento;
+
+public class CalculadoraDeDescontos {
+
+	public BigDecimal calcular(Orcamento orcamento) {
+		BigDecimal desconto = new DescontoParaOrcamentoComMaisdeCincoItens().calcular(orcamento);
+		if(desconto == BigDecimal.ZERO) {
+			desconto = new DescontoParaOrcamentoComMaisdeCincoItens().calcular(orcamento);
+		}
+		
+		return BigDecimal.ZERO;
+	}
+}

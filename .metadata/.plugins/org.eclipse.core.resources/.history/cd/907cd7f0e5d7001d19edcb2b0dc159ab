@@ -1,0 +1,12 @@
+import br.com.alura.loja.imposto.TipoImposto;
+
+public class TestesImpostos {
+
+	public static void main(String[] args) {
+		Orcamento orcamento = new Orcamento(new BigDecimal("100"));
+		CalculadoraDeImpostos calculadora = new CalculadoraDeImpostos(orcamento,TipoImposto.ICMS);
+		
+
+	}
+
+}
