@@ -13,12 +13,12 @@ public abstract class Desconto {
 		this.proximo = proximo;
 	}
 	
-	//Template Method => na classe mãe é modelo e delega as ações para as classes filhas
 	public BigDecimal calcular(Orcamento orcamento) {
 		if(deveAplicar(orcamento)) {
 			return efetuarCalculo(orcamento);
 		}
-		return proximo.calcular(orcamento);		
+		return proximo.calcular(orcamento);
+			
 	}
 	
 	protected abstract BigDecimal efetuarCalculo(Orcamento orcamento);

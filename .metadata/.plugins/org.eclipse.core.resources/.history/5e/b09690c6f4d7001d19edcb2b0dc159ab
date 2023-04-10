@@ -10,7 +10,7 @@ public class DescontoParaOrcamentoComMaisdeCincoItens extends Desconto {
 		super(proximo);
 	}
 
-	public BigDecimal efetuarCalculo(Orcamento orcamento) {
+	public BigDecimal calcular(Orcamento orcamento) {
 		return orcamento.getValor().multiply(new BigDecimal("0.1"));
 	}
 
