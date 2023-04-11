@@ -15,7 +15,7 @@ public class TestesPedido {
 		int quantidadeItens = Integer.parseInt(args[2]);
 		
 		GeraPedido gerador = new GeraPedido(cliente, valorOrcamento, quantidadeItens);
-		GeraPedidoHandler handler = new GeraPedidoHandler(/*dependencias*/);
+		GeraPedidoHandler handler = new GeraPedidoHandler();
 		handler.executa(gerador);						
 
 	}

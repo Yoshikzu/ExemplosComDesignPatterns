@@ -1,0 +1,11 @@
+package br.com.alura.loja.pedido;
+
+public class GeraPedidoHandler {
+
+	//construtor com injeção de dependencias como repository, service
+	
+	public void executa(GeraPedido dados) {
+		
+	}
+	
+}

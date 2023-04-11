@@ -18,30 +18,17 @@ public class GeraPedido {
 		this.quantidadeItens = quantidadeItens;
 	}
 	
-
-	public String getCliente() {
-		return cliente;
+	//Command
+	public void executa() {
+		
+		Orcamento orcamento = new Orcamento(this.valorOrcamento,this.quantidadeItens,new EmAnalise());
+		
+		LocalDateTime data = LocalDateTime.now();
+		
+		Pedido pedido = new Pedido(cliente,data,orcamento);
+		
+		System.out.println("Salvar pedido no banco de dados");
+		System.out.println("Enviar email com dados do novo pedido");
 	}
-
-	public void setCliente(String cliente) {
-		this.cliente = cliente;
-	}
-
-	public BigDecimal getValorOrcamento() {
-		return valorOrcamento;
-	}
-
-	public void setValorOrcamento(BigDecimal valorOrcamento) {
-		this.valorOrcamento = valorOrcamento;
-	}
-
-	public int getQuantidadeItens() {
-		return quantidadeItens;
-	}
-
-	public void setQuantidadeItens(int quantidadeItens) {
-		this.quantidadeItens = quantidadeItens;
-	}
-	
 	
 }
