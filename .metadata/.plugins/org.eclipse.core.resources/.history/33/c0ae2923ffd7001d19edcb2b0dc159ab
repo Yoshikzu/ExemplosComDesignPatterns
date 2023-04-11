@@ -1,0 +1,9 @@
+
+public class TestesPedido {
+
+	public static void main(String[] args) {
+		Orcamento orcamento = new Orcamento(new BigDecimal("600"),4,new EmAnalise());
+
+	}
+
+}

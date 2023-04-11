@@ -1,0 +1,13 @@
+package br.com.alura.loja.pedido;
+
+import java.time.LocalDateTime;
+
+public class GeraPedido {
+
+	private String cliente;
+	private BigDecimal valorOrcamento;
+	private int quantidadeItens;
+	
+	
+	
+}
