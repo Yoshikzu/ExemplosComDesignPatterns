@@ -6,7 +6,6 @@ import br.com.alura.loja.orcamento.Orcamento;
 
 public abstract class Imposto {
 	
-	//Decorator
 	private Imposto outro;
 	
 	public Imposto(Imposto outro) {

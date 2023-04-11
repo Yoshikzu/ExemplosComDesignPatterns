@@ -1,0 +1,12 @@
+package br.com.alura.loja.imposto;
+
+import java.math.BigDecimal;
+
+import br.com.alura.loja.orcamento.Orcamento;
+
+public abstract class Imposto {
+
+	public abstract BigDecimal calcular(Orcamento orcamento);
+	
+	
+}

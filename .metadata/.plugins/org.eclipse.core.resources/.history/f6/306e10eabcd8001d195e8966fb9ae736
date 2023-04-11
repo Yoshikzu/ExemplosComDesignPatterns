@@ -6,7 +6,6 @@ import br.com.alura.loja.orcamento.Orcamento;
 
 public abstract class Imposto {
 	
-	//Decorator
 	private Imposto outro;
 	
 	public Imposto(Imposto outro) {
@@ -17,11 +16,7 @@ public abstract class Imposto {
 	
 	public BigDecimal calcular(Orcamento orcamento) {
 		BigDecimal valorImposto = realizarCalculo(orcamento);
-		BigDecimal valorDoOutroImposto = BigDecimal.ZERO;
-		if(outro != null) {
-			valorDoOutroImposto = outro.realizarCalculo(orcamento);
-		}
-		return valorImposto.add(valorDoOutroImposto);
+		
 	}
 	
 	
