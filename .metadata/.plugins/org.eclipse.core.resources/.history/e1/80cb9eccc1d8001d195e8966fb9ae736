@@ -18,7 +18,6 @@ public class GeraPedidoHandler {
 		this.acoes = acoes;
 	}
 	
-	//Facade
 	public void executa(GeraPedido dados) {
 		
 		Orcamento orcamento = new Orcamento();
