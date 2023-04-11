@@ -11,7 +11,7 @@ import br.com.alura.loja.orcamento.situacao.SituacaoOrcamento;
 public class Orcamento implements Orcavel {
 
 	private BigDecimal valor;
-	private List<Orcavel> itens;
+	private List<ItemOrcamento> itens;
 	private SituacaoOrcamento situacao;
 
 	public Orcamento() {
@@ -60,7 +60,7 @@ public class Orcamento implements Orcavel {
 	}
 
 	
-	public void adicionarItem(Orcavel item) {
+	public void adicionarItem(ItemOrcamento item) {
 		this.valor = valor.add(item.getValor());
 		this.itens.add(item);
 	}

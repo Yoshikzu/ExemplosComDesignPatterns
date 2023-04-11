@@ -20,7 +20,7 @@ public class GeraPedidoHandler {
 	
 	public void executa(GeraPedido dados) {
 		
-		Orcamento orcamento = new Orcamento();
+		Orcamento orcamento = new Orcamento(dados.getValorOrcamento(),dados.getQuantidadeItens(),new EmAnalise());
 		
 		LocalDateTime data = LocalDateTime.now();
 		
