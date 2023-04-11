@@ -1,0 +1,12 @@
+package br.com.alura.loja.orcamento;
+
+public class RegistroDeOrcamento {
+
+	public void registrar(Orcamento orcamento) {
+		//Chamada HTTP para API Externa
+		//Url Connection
+		//Http Cliente (Apache)
+		//lib Rest
+		
+	}
+}

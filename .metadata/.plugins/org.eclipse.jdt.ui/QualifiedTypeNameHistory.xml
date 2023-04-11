@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.alura.loja.imposto.TipoImposto"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.imposto.CalculadoraDeImpostos"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.imposto.ICMS"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.desconto.CalculadoraDeDescontos"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.desconto.DescontoParaOrcamentoComMaisdeCincoItens"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.desconto.DescontoParaOrcamentoComValorAcimaQueQuinhentos"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.desconto.SemDesconto"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.orcamento.situacao.SituacaoOrcamento"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.orcamento.Orcamento"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.orcamento.situacao.EmAnalise"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.pedido.GeraPedido"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.pedido.GeraPedidoHandler"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.pedido.acao.AcaoAposGerarPedido"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.pedido.Pedido"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.pedido.acao.SalvarPedidoNoBancoDeDados"/>
+    <fullyQualifiedTypeName name="br.com.alura.loja.pedido.acao.EnviarEmailPedido"/>
+</qualifiedTypeNameHistroy>
