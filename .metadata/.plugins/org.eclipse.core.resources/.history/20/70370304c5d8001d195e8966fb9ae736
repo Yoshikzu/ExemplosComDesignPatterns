@@ -18,7 +18,7 @@ public class TestesComposicao {
 		OrcamentoProxy proxy = new OrcamentoProxy(novo);
 		
 		System.out.println(proxy.getValor());
-		System.out.println(proxy.getValor());
+		System.out.println(proxu.getValor());
 		
 
 	}
